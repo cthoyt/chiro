@@ -10,6 +10,42 @@ import: http://purl.obolibrary.org/obo/ncbitaxon.owl
 ontology: chiro
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#activator_of> <http://purl.obolibrary.org/obo/GO_0042311>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_38498> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0008137>)) <http://purl.obolibrary.org/obo/CHEBI_24432>))\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38498> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0008137>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_38500> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0004129>)) <http://purl.obolibrary.org/obo/CHEBI_24432>))\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0004129>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50905> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#destabilizer_of> <http://purl.obolibrary.org/obo/GO_0009790>))\n)
 
+[Typedef]
+id: activator_of
+name: activator_of
+
+[Typedef]
+id: agonist_of
+name: agonist_of
+
+[Typedef]
+id: antagonist_of
+name: antagonist_of
+
+[Typedef]
+id: destabilizer_of
+name: destabilizer_of
+
+[Typedef]
+id: inducer_of
+name: inducer_of
+
+[Typedef]
+id: inhibitor_of
+name: inhibitor_of
+
+[Typedef]
+id: modulator_of
+name: modulator_of
+
+[Typedef]
+id: sensitizer_of
+name: sensitizer_of
+
+[Typedef]
+id: stabilizier_of
+name: stabilizier_of
+
 [Term]
 id: CHEBI:22180
 intersection_of: CHEBI:24432
