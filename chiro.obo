@@ -1,10 +1,12 @@
 format-version: 1.2
 data-version: releases/2015-11-23
-import: http://purl.obolibrary.org/obo/chiro/imports/chebi_import.owl
-import: http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl
-import: http://purl.obolibrary.org/obo/chiro/imports/go_import.owl
-import: http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl
-import: http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl
+import: http://purl.obolibrary.org/obo/chebi.owl
+import: http://purl.obolibrary.org/obo/envo.owl
+import: http://purl.obolibrary.org/obo/go.owl
+import: http://purl.obolibrary.org/obo/hp.owl
+import: http://purl.obolibrary.org/obo/mp.owl
+import: http://purl.obolibrary.org/obo/pr.owl
+import: http://purl.obolibrary.org/obo/ncbitaxon.owl
 ontology: chiro
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_35620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#activator_of> <http://purl.obolibrary.org/obo/GO_0042311>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_38498> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0008137>)) <http://purl.obolibrary.org/obo/CHEBI_24432>))\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38498> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0008137>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_38500> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0004129>)) <http://purl.obolibrary.org/obo/CHEBI_24432>))\nSubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38500> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#inhibitor_of> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/GO_0005739>) <http://purl.obolibrary.org/obo/GO_0004129>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_50905> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/chiro#destabilizer_of> <http://purl.obolibrary.org/obo/GO_0009790>))\n)
 
